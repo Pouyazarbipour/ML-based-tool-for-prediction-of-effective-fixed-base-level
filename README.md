@@ -10,16 +10,32 @@ This project is designed to predict the displacement of basement levels in reinf
 
 ## Data Range and Parameters
 
-The model uses the following input parameters, categorized into categorical and numerical features. These are derived from Openses simulations, soil properties, and structural details for square and rectangular plans across three soil types (Hand, Clay, Sand).
+The model uses the following input parameters, categorized into categorical and numerical features. These are derived from Opensees simulations, soil properties, and structural details for square and rectangular plans across three soil types (Hand, Clay, Sand).
 
-- **Rec/Dn50**: 0.12 – 25.4 (Output)
-- **H0√T0p**: 5.8 – 35.8 (Input)
-- **H0**: 1.1 – 6 (Input)
-- **fg**: 1 – 1.8 (Input)
-- **h/Dn50**: 7.2 – 26.5 (Input)
-- **hb/Hs**: 0 – 3.1 (Input)
+### Categorical Features
 
-The model does not apply the effect of the dimensionless parameter *fn*, where *N* (number of waves) is set to 3000. The *fn* parameter, as presented by [Akbari et al. (2022)](https://doi.org/10.1016/j.oceaneng.2024.119465), accounts for the effect of previous waves on berm breakwater recession.
+* **Soil_type**: Dasti (manual soil), Clay, Sand
+* **Plan_type**: Square, Rectangular
+
+### Numerical Features (approximate data ranges)
+
+* **Gamma (γ, kN/m³)**: 14 – 19.7
+* **K0** (at-rest earth pressure coefficient): 0.44 – 0.631
+* **Lateral_SP (kN/m²)**: 25 – 106
+* **NF (kN)**: 200 – 2,544 (normal force between wall and soil)
+* **FF (kN)**: 62 – 895 (frictional force between wall and soil)
+* **Wall_thick (cm)**: 5 – 20
+* **H (m)**: 3.2 – 9.6 (basement height/depth)
+* **CSC (kg/m²)**: 25 (concrete strength; fixed)
+* **P (kN)**: −250 – 250 (axial force from ETABS)
+* **V2 (kN)**: −250 – 0
+* **V3 (kN)**: −120 – 120
+
+### Target (Output)
+
+* **Dis**: 0.01 – 3.1 mm
+  Displacement of basement stories, used to identify the effective fixed-base level where:
+  Dis ≤ 0.02 × first-floor displacement.
 
 ## Model and Prediction Approach
 
@@ -38,4 +54,4 @@ Programmed by Pouya Zarbipour. For questions or feedback, please contact [pouyaz
 
 ## Disclaimer
 
-This tool aims to improve berm breakwater recession prediction and enhance design reliability. Please refer to the User & Technical Manual for information on intended use and limitations.
+This tool aims to improve prediction of effective fixed base level and enhance design reliability. Please refer to the User & Technical Manual for information on intended use and limitations.
