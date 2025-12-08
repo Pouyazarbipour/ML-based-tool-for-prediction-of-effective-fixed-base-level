@@ -27,9 +27,9 @@ The model uses the following input parameters, categorized into categorical and 
 * **Wall_thick (cm)**: 5 – 20
 * **H (m)**: 0 – 9.6 (basement height/depth)
 * **CSC (kg/m²)**: 12 - 190 
-* **P (kN)**: −250 – 250 (axial force from ETABS)
-* **V2 (kN)**: −250 – 0
-* **V3 (kN)**: −120 – 120
+* **P (kN)**: 
+* **V2 (kN)**: 
+* **V3 (kN)**: 
 
 ### Target (Output)
 
