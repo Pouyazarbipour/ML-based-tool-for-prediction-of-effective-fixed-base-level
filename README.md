@@ -14,7 +14,7 @@ The model uses the following input parameters, categorized into categorical and 
 
 ### Categorical Features
 
-* **Soil_type**: Dasti (manual soil), Clay, Sand
+* **Soil_type**: Hand, Clay, Sand
 * **Plan_type**: Square, Rectangular
 
 ### Numerical Features (approximate data ranges)
