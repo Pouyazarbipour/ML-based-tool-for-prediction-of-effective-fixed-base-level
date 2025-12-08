@@ -25,8 +25,8 @@ The model uses the following input parameters, categorized into categorical and 
 * **NF (kN)**: 200 – 2,544 (normal force between wall and soil)
 * **FF (kN)**: 62 – 895 (frictional force between wall and soil)
 * **Wall_thick (cm)**: 5 – 20
-* **H (m)**: 3.2 – 9.6 (basement height/depth)
-* **CSC (kg/m²)**: 25 (concrete strength; fixed)
+* **H (m)**: 0 – 9.6 (basement height/depth)
+* **CSC (kg/m²)**: 12 - 190 
 * **P (kN)**: −250 – 250 (axial force from ETABS)
 * **V2 (kN)**: −250 – 0
 * **V3 (kN)**: −120 – 120
