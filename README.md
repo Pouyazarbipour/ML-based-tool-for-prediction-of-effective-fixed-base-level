@@ -51,9 +51,7 @@ For detailed guidance, refer to the [User & Technical Manual](https://github.com
 
 The underlying research is based on:
 
-> Zarbipour, P., Nasimi, Sh. &  Yazdani, M., (2026).  
-> *Novel Machine Learning Framework with Causal Inference for Rapid SSI-Based Displacement Prediction in Deeply Embedded High-Rise Buildings*.  
-> Engineering Applications of Artificial Intelligence
+> Zarbipour, P., Nasimi, Sh. &  Yazdani, M., (2026). *Novel Machine Learning Framework with Causal Inference for Rapid SSI-Based Displacement Prediction in Deeply Embedded High-Rise Buildings*. Engineering Applications of Artificial Intelligence
 
 Programmed by Pouya Zarbipour. For questions or feedback, please contact [pouyazarbipour@gmail.com](mailto:pouyazarbipour@gmail.com).
 
