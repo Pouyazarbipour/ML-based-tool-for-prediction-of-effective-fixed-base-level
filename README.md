@@ -44,7 +44,7 @@ For detailed guidance, refer to the [User & Technical Manual](https://github.com
 
 ## Downloads
 
-- [Download the Software](https://github.com/Pouyazarbipour/ML-based-tool-for-prediction-of-effective-fixed-base-level)
+- [Download the Software](https://drive.google.com/file/d/1783JzYevSCkzFqaus8xJcbgpNSvORKgS/view?usp=sharing)
 - [Download User & Technical Manual](https://github.com/Pouyazarbipour/ML-based-tool-for-prediction-of-effective-fixed-base-level)
 
 ## About
