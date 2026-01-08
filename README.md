@@ -6,7 +6,7 @@ Welcome to The XGBoost Building Base Level Prediction Tool, a GUI-based applicat
 
 This project is designed to predict the displacement of basement levels in reinforced concrete buildings under seismic loads, aiding in the determination of the base level according to Iran's Seismic Design Code. The model uses a dataset split into 70% for training, 15% for validation, and 15% for testing, achieving R-squared statistics of 0.99 for training and 0.97 for testing. For more details, refer to the article by Zarbipour et al. (2026).
 
-![Main Page GUI](https://github.com/Pouyazarbipour/The-XG-Boost-Berm-Breakwater-Recession-Prediction-tools/blob/main/GUI%20pic/main_page.JPG)
+![Main Page GUI](https://github.com/Pouyazarbipour/ML-based-tool-for-prediction-of-effective-fixed-base-level/blob/main/Capture.JPG)
 
 ## Data Range and Parameters
 
@@ -17,22 +17,22 @@ The model uses the following input parameters, categorized into categorical and 
 * **Soil_type**: Backfill, Clay, Sand
 * **Plan_type**: Square, Rectangular
 
-### Numerical Features (approximate data ranges)
+### Numerical Features
 
-* **Soil Unit Volume Weight (γ, kN/m³)**: 14 – 19.7
-* **Soil Static Pressure Coefficient** (K0): 0.44 – 0.631
-* **Lateral Soil Pressure (LSP, kN/m²)**: 25 – 106
-* **Normal Force (NF, kN)**: 200 – 2,544 
-* **Frictional Force between Soil and Wall (FFSW, kN)**: 62 – 895 
-* **Wall thick (Wt, m)**: 0.05 – 0.20
-* **Basement depth (Bd, m)**: 0 – 9.6 (basement height/depth)
-* **Axial forces in frictional elements (FFP, kN)**: 12 - 190 
-* **Shear force (V2, kN)**: 
-* **Shear force (V3, kN)**: 
+* **Soil Unit Volume Weight (γ, kN/m³)**
+* **Soil Static Pressure Coefficient (K0, -)** 
+* **Lateral Soil Pressure (LSP, kN/m²)**
+* **Normal Force (NF, kN)**
+* **Frictional Force between Soil and Wall (FFSW, kN)**
+* **Wall thick (Wt, m)**
+* **Basement depth (Bd, m)**
+* **Axial forces in frictional elements (FFP, kN)**
+* **Shear force (V2, kN)** 
+* **Shear force (V3, kN)**
 
 ### Target (Output)
 
-* **Displacement**: 0.01 – 12.3 mm
+* **Displacement**
   Displacement of basement stories, used to identify the effective fixed-base level where:
   Dis ≤ 0.02 × first-floor displacement.
 
